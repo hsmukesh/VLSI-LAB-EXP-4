@@ -313,6 +313,8 @@ OUTPUT:
 
 
 RESULT:
+
+
 Hence, the simulation and synthesis of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN is verified using Xilinx ISE
 
 
