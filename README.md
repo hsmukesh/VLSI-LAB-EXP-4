@@ -1,20 +1,20 @@
 
-Exp4:SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+# Exp No 4:SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS #
 
 
-Date:
+**Date:**
 
 
 
-AIM: 
+**AIM:**
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 Xilinx 14.7
 Spartan6 FPGA
 
-PROCEDURE:
+**PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -28,15 +28,15 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
-SR FLIPFLOP
+**SR FLIPFLOP**
 
-LOGIC DIAGEAM:
+**LOGIC DIAGEAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module srflipflop(clk,reset,s,r,q);
 input clk,reset,s,r;
@@ -59,20 +59,20 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/a35f87d8-a53e-47d1-a9c3-a13fff8ffa08)
 
 
 
-JK FLIPFLOP
+**JK FLIPFLOP**
 
 
-LOGIC DIAGEAM:
+**LOGIC DIAGEAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module jkflipflop(clk,reset,j,k,q);
 input clk,reset,j,k;
@@ -96,17 +96,17 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/1009290b-776c-4b31-8d5e-641d84a6c14d)
 
 
-T FLIPFLOP
+**T FLIPFLOP**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 
 module tflipflop(clk,reset,t,q);
@@ -125,20 +125,20 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/9eb51472-7c80-4a22-b458-6b2ae66db52e)
 
 
-D FLIPFLOP
+**D FLIPFLOP**
 
 
-LOGIC DIAGEAM:
+**LOGIC DIAGEAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 
 module dflipflop(clk,d,reset,q);
@@ -155,19 +155,19 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/c85a8eb5-b68f-4fbc-b99d-19a4812dd44c)
 
 
-MOD 10 COUNTER:
+**MOD 10 COUNTER:**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/b9c92aa7-ed27-41c8-8e8f-243af778757d)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module mod10counter(clk,rst,count);
 input clk,rst;
@@ -185,16 +185,9 @@ endmodule
 ```
 
 
-OUTPUT:
 
 
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
-
-VERILOG CODE:
-```
-
-```
 
 
 OUTPUT:
