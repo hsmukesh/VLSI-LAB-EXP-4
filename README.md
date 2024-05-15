@@ -190,21 +190,21 @@ endmodule
 
 
 
-OUTPUT:
+**OUTPUT:**
 
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/1e210c2d-5a5c-405a-a2a4-ba69b65cfe60)
 
 
-UP COUNTER:
+**UP COUNTER:**
 
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/87f49cc7-1904-4cf1-95d1-97af8dd869f9)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 
 module upcounter(clk,rst,count);
@@ -229,16 +229,16 @@ OUTPUT:
 
 
 
-DOWN COUNTER:
+**DOWN COUNTER:**
 
 
-LOGIC DIAGRAM:  
+**LOGIC DIAGRAM:**  
 
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/42d9b0d8-45d1-4ccd-95ed-68874d713314)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 
 module downcounter(clk,rst,count);
@@ -256,7 +256,7 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 
 
@@ -264,14 +264,14 @@ OUTPUT:
 
 
 
-RIPPLE CARRY COUNTER:
+**RIPPLE CARRY COUNTER:**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/37be46f0-fc80-40f0-b325-df4eb1a2670d)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module jkff(j,k,clock,reset,q,qb);
 input j,k,clock,reset;
@@ -300,13 +300,13 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-4/assets/159506763/dae2e8f4-a21e-416c-9138-8304752e5010)
 
 
-RESULT:
+**RESULT:**
 
 
 Hence, the simulation and synthesis of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN is verified using Xilinx ISE
